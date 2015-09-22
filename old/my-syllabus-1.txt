@@ -1,0 +1,87 @@
+LEVEL 1: BASIC HTML5 & CSS3
+(Learn the basics of HTML5 and CSS3.)
+
+Lessons: HTML Basics 1
+* p & br tags: paragraph and break tags
+* Title, h1, strong: title, heading & strong tags
+* Image tag: image tag
+* Anchor tag: Linking pages using the anchor tag
+
+Lessons: HTML Basics 2
+* Lists & p's: Formatted lists and paragraphs
+* HTML style guide: Google style guide for HTML
+* Section tags: header, footer & section tags
+
+Lessons: CSS Basics 1
+* CSS Intro: Introduction to CSS
+* Fonts: Using pretty fonts
+* Anchor styles: Add style to anchor tags
+* CSS style guide: CSS Google style guide
+
+Lessons: CSS Basics 2
+* Image styles: Image borders
+* Margins: Spacing with margins
+* Shadows: Shadow effects
+* Background images
+* Section styles: Style header, footer & section
+
+LEVEL 2: INTERMEDIATE HTML5 & CSS3
+(Learn more advanced HTML5 and CSS3, optimized for mobile devices.)
+
+Lessons: Part 1
+* Level 2 intro: Intro to level 2 HTML5/CSS3
+* External stylesheet: External CSS stylesheet
+* Audio & video: Audio and video
+* Comments: Comments in HTML & CSS code
+* Padding & margin: Spacing with padding and margin
+
+Lessons: Part 2
+* Display type: 3 types of HTML elements
+* Link buttons: Make an anchor look like a button
+* Color: Use RGB color values
+* Browser prefixes: Use new CSS3 properties with browser prefixes
+* Gradients: Use gradient color fills
+
+Lessons: Part 3
+* Validation: Use validation to check the HTML correctness
+* Figures: Use the figure tag
+* Meta tags: Add meta tags
+* Table: Create a table
+* Table style: Style a table
+
+Lessons: Part 4
+* Class selectors: Learn about class selectors
+* Descendant selectors: Learn about descendant selectors
+* Header, footer: Create a header and footer
+* Navigation bar: Create a navigation bar
+* Print view: Style your pages for printing
+
+Level 3: JAVASCRIPT INTERACTIVITY
+(Learn how to create app user interfaces with HTML form elements, then
+make them come alive using JavaScript.)
+
+Lessons: Selectors
+* JavaScript Style: Styling a page with JavaScript
+* Element IDs: How to use element IDs
+* Buttons: Create buttons
+* Select element: Create multichoice select boxes
+
+Lessons: Inputs
+* Text input boxes: Create text input boxes
+* Label tag: Create input labels
+* Number input boxes: Create number input boxes
+* Radio and check boxes: Create radio and check boxes
+* Hexidecimal: Hexidecimal numbers
+
+Lessons: Inputs 2
+* Attribute selectors: CSS attribute selectors
+* Range inputs: Create range inputs
+* Other Inputs: Create other input boxes
+* Text area: Contact us form
+* The Internet: How the internet works
+
+Lessons: Forms
+* Input pattern: Input box patterns
+* Output and reset: Form output and reset
+* Forms and placeholder: Sign up form
+* Form submission: Form action and name

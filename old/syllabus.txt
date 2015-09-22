@@ -1,0 +1,129 @@
+Level 1: Basic HTML5 & CSS3
+
+Create your personal profile and business profile pages as you learn
+the basics of HTML5 and CSS3.
+
+Lessons 1-5: HTML Basics 1
+
+01. p & br tags: paragraph and break tags
+02. Title, h1, strong: title, heading & strong tags
+03. Common bugs: Fixing common HTML mistakes
+04. Image tag: image tag
+05. Anchor tag: Linking pages using the anchor tag
+
+Lessons 6-10: HTML Basics 2
+06. Common bugs 2: More common mistakes
+07. Review 1: Review lessons 1-6
+08. Lists & p's: Formatted lists and paragraphs
+09. HTML style guide: Google style guide for HTML
+10. Section tags: header, footer & section tags
+
+Project 1. Birthday Invite: Create an invitation to your birthday
+party using HTML and CSS
+
+Project 2. Player Profile: Create a profile page for your favorite
+sports person
+
+Lessons 11-15: CSS Basics 1
+11. CSS Intro: Introduction to CSS
+12. Common bugs 3: Common CSS mistakes
+13. Fonts: Using pretty fonts
+14. Anchor styles: Add style to anchor tags
+15. CSS style guide: CSS Google style guide
+
+Lessons 16-20: CSS Basics 2
+16. Image styles: Image borders
+17. Margins: Spacing with margins
+18. Shadows: Shadow effects
+19. Background images
+20. Section styles: Style header, footer & section
+
+Project 3. Movie Review: Create a movie review of your favourite movie
+and movie character
+
+Level 2: Intermediate HTML5 & CSS3
+
+Learn more advanced HTML5 and CSS3 as you create a 5 page interactive
+travel guide optomised for mobile devices.
+
+Lessons 1-5: Part 1
+01. Level 2 intro: Intro to level 2 HTML5/CSS3
+02. External stylesheet: External CSS stylesheet
+03. Audio & video: Audio and video
+04. Comments: Comments in HTML & CSS code
+05. Padding & margin: Spacing with padding and margin
+
+Lessons 6-10: Part 2
+06. Display type: 3 types of HTML elements
+07. Link buttons: Make an anchor look like a button
+08. Color: Use RGB color values
+09. Browser prefixes: Use new CSS3 properties with browser prefixes
+10. Gradients: Use gradient color fills
+
+Project 1. Celebrity Profile: Create a profile page for your favorite
+movie star
+
+Lessons 11-15: Part 3
+11. Validation: Use validation to check the HTML correctness
+12. Figures: Use the figure tag
+13. Meta tags: Add meta tags
+14. Table: Create a table
+15. Table style: Style a table
+
+Lessons 16-20: Part 4
+16. Class selectors: Learn about class selectors
+17. Descendant selectors: Learn about descendant selectors
+18. Header, footer: Create a header and footer
+19. Navigation bar: Create a navigation bar
+20. Print view: Style your pages for printing
+
+Project 2. Birthday Invite 2: Create a birthday invitation for a guest
+
+Level 3: JavaScript interactivity
+
+Learn how to creates app user interfaces with HTML form elements, then
+make them come alive using JavaScript
+
+Lessons 1-5: Selectors
+01. JavaScript Style: Styling a page with JavaScript
+02. Element IDs: How to use element IDs
+03. Buttons: Create buttons
+04. Select element: Create multichoice select boxes
+05. Review selectors: Review CSS selectors
+
+Project 1. Tic-tac-toe: Build a 2 player game of Tic Tac Toe using
+HTML, CSS and javaScript
+
+Project 2. FIFA Quiz: Create a quiz about the FIFA World Cup using
+HTML and javaScript
+
+Lessons 6-10: Inputs
+06. Text input boxes: Create text input boxes
+07. Label tag: Create input labels
+08. Number input boxes: Create number input boxes
+09. Radio and check boxes: Create radio and check boxes
+10. Hexidecimal: Hexidecimal numbers
+
+Project 3. Hipster, Hacker, Hustler: Create a personality test using
+HTML and javaScript
+
+Lessons 11-15: Inputs 2
+11. Attribute selectors: CSS attribute selectors
+12. Range inputs: Create range inputs
+13. Other Inputs: Create other input boxes
+14. Text area: Contact us form
+15. The Internet: How the internet works
+
+Project 4. Job Application: Create a Google job application form using
+HTML and javaScript
+
+Lessons 16-20: Forms
+16. Input pattern: Input box patterns
+17. Output and reset: Form output and reset
+18. Forms and placeholder: Sign up form
+19. Form submission: Form action and name
+20. Review: Review Questions
+
+Project 5. RSVP: Create a form for others to RSVP to your birthday
+invitation
+

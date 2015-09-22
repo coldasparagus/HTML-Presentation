@@ -1,0 +1,112 @@
+HTML, CSS and JAVASCRIPT - AN OVERVIEW
+Alexander G. Burchell
+September, 2015
+
+* What is a web server?
+
+* What is a web browser?
+
+* What is a "dot-html" file?
+
+It is NOT HTML.
+
+* Well, what is it then?
+
+It's a file in HTML format, containing user text, HTML tags (including
+references to other URLs, such as links to click or inline images),
+and it optionally (but usually) contains either links to other CSS and
+JavaScript files, or contains CSS "directives" [instructions to the
+web browser about fonts, colors, etc.] and/or JavaScript code "inline"
+[stuck into the HTML code in various places using certain HTML tags].
+
+* If that isn't HTML, then what *is* HTML?
+
+HTML is a name for a file format, somewhat like "*.txt" or "*.doc".
+It stands for HyperText Markup Language and it's published by an
+organization called the World Wide Web Consortium, often known as
+"W3C".  It's an open format, not specified by only one company.
+
+* OK, then what is hypertext?  And what is markup?
+
+Hypertext is a word for a kind of text file, a normal text file you
+can edit with Notepad, that contains whatever you would like, such as
+a description of a company, or a museum, or your own personal
+thoughts, etc.  But it's different from a normal text file since it
+contains markup and it contains "hyperlinks" to other text files or
+image files, either local on your computer, or located on any computer
+in the world which is making them available with a web server.
+
+The "markup" are instructions to the web browser [NOT! the web server]
+which tells the browser (Chrome, IE, Firefox, etc.] how to display the
+text you wrote on the screen of the browser when the file is
+displayed.  So the contents of the file ending in ".html" [which I'll
+now call an HTML file since it's understood that it's *in* HTML
+format, it itself is *not* the HTML format, which as I said is defined
+by W3C].
+
+So, HTML defines a file containing hypertext, text which references
+other hypertext, as I said.  And a markup language "marks up" the
+hypertext so that the web browser knows how to display it to the user.
+
+* That is a lot.  Is that it?
+
+No, it isn't.  Writing a modern web page is very complicated because
+it's usually necessary to use other languages (sometimes several
+different ones) along with HTML itself to produce what the user sees
+and interacts with on the screen.  It's a lot different from someone
+sitting down and writing a long computer program in a single
+programming language, which does the job the company needs.
+
+* You said "hypertext markup language".  How is it a language?
+
+It is NOT a programming language.  It's not like Visual Basic, C#
+["see sharp"], and other languages which are called "procedural"
+languages.  Like I said, it's a markup language, used to add
+instructions about how to display the text and images, etc.
+
+A procedural language can be used for instance to add up all the
+numbers you type in and print out the answer.  The code can loop back,
+make decisions with "IF" statements, store data in variables, etc.
+HTML does not do that.  That's why it's necessary to add JavaScript to
+HTML to accomplish procedural programming within a web page.  More
+later, now back to markup.
+
+* What is CSS? Cascading Style Sheets
+* What is a style sheet?
+* What is a style?
+
+* And finally, what about JavaScript?
+
+JavaScript is in fact a true multipurpose programming language.  So it
+*is* like Visual Basic, C#, and many other languages.  People really
+criticized it when it came out in the 1990s.  It was developed by
+NetScape, a famous early Internet company.  Even though it has the
+word "Java" in the name, it has nothing to do with the Java
+programming language which was made by a different company and wasn't
+intended for the Web, really.  But time passed, and programmers found
+out that there were some ways to write JavaScript programs that made
+them as powerful as any other programming language.
+
+I said that now JavaScript is as powerful any other language.  But, as
+a language, it has a crucial difference which sets it apart.
+JavaScript was intended to be used only within a web page.
+
+Unlike, say, a program in C# or Visual Basic, a program in JavaScript
+isn't used by running it from the command line or clicking on an icon
+in Windows Explorer. [Although this can be done.]  JavaScript runs
+*within* the users web browser, when the user is browsing a web page.
+The JavaScript program is either "embedded" (inserted within) an HTML
+file or it's in it's own file, ending in ".js".  At the time that the
+browser loads a page, the JavaScript in the web page is run, like any
+other computer program like, say, Visual Basic.
+
+This seems like a huge security problem.  If a user just browses a
+page somewhere on the Web, then the JavaScript in that page will run.
+What if it's a site that wants to hack into your computer?  
+
+The cure to this potential problem is that JavaScript is run in a
+"sandbox" (or like a jail) within the browser.  It can't use any
+resources of the computer the browser is running on except by asking
+the browser.  So, unless there is some security flaw in the browser,
+it's safe to run any JavaScript code from any site anywhere, by
+design.

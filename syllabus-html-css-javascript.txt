@@ -12,41 +12,45 @@ It is NOT HTML.
 
 * Well, what is it then?
 
-It's a file in HTML format, containing user text, HTML tags (including
-references to other URLs, such as links to click or inline images),
-and it optionally (but usually) contains either links to other CSS and
-JavaScript files, or contains CSS "directives" [instructions to the
-web browser about fonts, colors, etc.] and/or JavaScript code "inline"
-[stuck into the HTML code in various places using certain HTML tags].
+It's a file in HTML format, containing text from the author, HTML tags
+(including references to other URLs, such as links to click or inline
+images), and it optionally (but usually) contains either links to
+other CSS and JavaScript files, or contains CSS "directives"
+[instructions to the web browser about fonts, colors, etc.] and/or
+JavaScript code "inline" [stuck into the HTML code in various places
+using certain HTML tags].
 
 * If that isn't HTML, then what *is* HTML?
 
 HTML is a name for a file format, somewhat like "*.txt" or "*.doc".
-It stands for HyperText Markup Language and it's published by an
-organization called the World Wide Web Consortium, often known as
-"W3C".  It's an open format, not specified by only one company.
+It stands for HyperText Markup Language and the format is published by
+an organization called the World Wide Web Consortium, often known as
+"W3C".  It's an open format, not only specified by one company.
 
 * OK, then what is hypertext?  And what is markup?
 
 Hypertext is a word for a kind of text file, a normal text file you
 can edit with Notepad, that contains whatever you would like, such as
-a description of a company, or a museum, or your own personal
-thoughts, etc.  But it's different from a normal text file since it
-contains markup and it contains "hyperlinks" to other text files or
-image files, either local on your computer, or located on any computer
-in the world which is making them available with a web server.
+a description of a company, or your own personal thoughts, etc.  But
+it's different from a normal text file since it contains "markup" and
+it contains "hyperlinks" to other text files or image files, either
+local on your computer, or located on any computer in the world which
+is making them available with a web server.
 
-The "markup" are instructions to the web browser [NOT! the web server]
-which tells the browser (Chrome, IE, Firefox, etc.] how to display the
-text you wrote on the screen of the browser when the file is
-displayed.  So the contents of the file ending in ".html" [which I'll
-now call an HTML file since it's understood that it's *in* HTML
-format, it itself is *not* the HTML format, which as I said is defined
-by W3C].
+The "markup" parts are instructions to the web browser [NOT! the web
+server] which tells the browser (Chrome, IE, Firefox, etc.) how to
+display the text you wrote on the screen of the browser when the file
+is displayed.  Markup is found within angle brackets in the file
+(greater and less-than signs), and and individual piece of markup is
+called a "tag".
 
-So, HTML defines a file containing hypertext, text which references
+So now a file ending in ".html" I will now call an HTML file, since
+it's understood that it is *in* HTML format, and also that it itself
+is not *the* HTML format, which as I said is defined by W3C.
+
+[[[So, HTML defines a file containing hypertext, text which references
 other hypertext, as I said.  And a markup language "marks up" the
-hypertext so that the web browser knows how to display it to the user.
+hypertext so that the web browser knows how to display it to the user.]]]
 
 * That is a lot.  Is that it?
 
@@ -71,9 +75,44 @@ HTML does not do that.  That's why it's necessary to add JavaScript to
 HTML to accomplish procedural programming within a web page.  More
 later, now back to markup.
 
-* What is CSS? Cascading Style Sheets
+* What is CSS?
+
+"CSS" is another World Wide Web (WWW) acronym!  It stands for
+"Cascading Style Sheets".  It's a way of separating the presentation
+of your HTML document from its content.  I don't think this will make
+sense until I provide some background information.
+
+HTML tries to keep the presentation, that is, how an HTML document
+finally appears on the screen, from the structure and the content of
+the document.  That's the words, the pictures, the section breaks, and
+other elements of the HTML which don't have to do with how it appears
+on the screen.
+
+One of the foundations of the HTML aproach to document formatting is
+seperating the "presentation" of a document from the actual content of
+the document.  This is in contrast to the approach used by most word
+processors, like Microsoft Word.  With a word processor, the way that
+you format your document is mixed in with the words and images you
+type in.  If, later, you decide that you want to change the font for
+all of the section headings, you may have trouble if you had put in
+the formatting manually along with your text.  You would have to go
+through the document and change every section heading individually.
+
+But, if you used a format built in to Word for your section headings,
+then you could just change the font for *that format*, and all of your
+section headings would change.  So in this case, since you thought
+ahead and made sure to separate the presentation (the built-in format
+for the section headings) from the content, the change you wanted to
+make was easy and not a lot of labor.
+
+Cascading Style Sheets are an implementation of that concept, for HTML
+documents.  They allow you to almost completely separate the
+presentation of your web page from the content, text and pictures,
+which is in it.
+
 * What is a style sheet?
 * What is a style?
+* What about cascading?
 
 * And finally, what about JavaScript?
 

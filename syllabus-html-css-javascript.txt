@@ -1,10 +1,27 @@
 HTML, CSS and JAVASCRIPT - AN OVERVIEW
 Alexander G. Burchell
-September, 2015
+September/October, 2015
 
 * What is a web server?
 
+A web server is a computer which is continuously running, and
+continuously connected to the Internet.  It "listens" for requests
+from client computers (web browsers) and when it gets a request, it
+"serves" back some files which the client web browser displays to the
+user.  One important characteristic of this "client-server" approach
+is that the user doesn't have to make a permanent connection to the
+web server to interact with it.  The requests from the user ("client")
+come one-at-a-time and are answered by the web server ("server") as
+they come in.
+
 * What is a web browser?
+
+A web browser is a computer program running on the user's computer
+which is used to communicate with web servers on the Internet.
+Well-known examples include Internet Explorer, Chrome and Firefox.  On
+Macintosh computers the default web server is Safari.  Mobile phones
+have their own web browsers as well, known collectively as "mobile
+browsers" or just "mobile".
 
 * What is a "dot-html" file?
 
@@ -48,32 +65,47 @@ So now a file ending in ".html" I will now call an HTML file, since
 it's understood that it is *in* HTML format, and also that it itself
 is not *the* HTML format, which as I said is defined by W3C.
 
-[[[So, HTML defines a file containing hypertext, text which references
+So, HTML defines a file containing hypertext, text which references
 other hypertext, as I said.  And a markup language "marks up" the
-hypertext so that the web browser knows how to display it to the user.]]]
+hypertext so that the web browser knows how to display it to the user.
+
+This is very important because the client computer could be a laptop
+with a wide screen but comparatively limited dot resolution, or a
+powerful computer workstation with a huge screen.  It could also be an
+old PC with a square monitor running at 800x600 pixels.  And these
+days, the category of "mobile" web browsers is hugely important, with
+the majority of web browsing these days already being mobile in Asia
+and India.  It's obvious, but mobile browsers don't have a mouse to
+move or click, and screens are tiny compared with traditional desktop
+browsers.
+
+In summary, HTML markup allows the author to write only one document
+and have it be able to be displayed on a great variety of client
+computer systems.
 
 * That is a lot.  Is that it?
 
-No, it isn't.  Writing a modern web page is very complicated because
-it's usually necessary to use other languages (sometimes several
-different ones) along with HTML itself to produce what the user sees
-and interacts with on the screen.  It's a lot different from someone
-sitting down and writing a long computer program in a single
+No, it is not.  Writing a modern web page can be very complicated
+because it's usually necessary to use other languages (sometimes
+several different ones) along with HTML itself to produce what the
+user sees and interacts with on the screen.  It's a lot different from
+someone sitting down and writing a long computer program in one
 programming language, which does the job the company needs.
 
 * You said "hypertext markup language".  How is it a language?
 
-It is NOT a programming language.  It's not like Visual Basic, C#
-["see sharp"], and other languages which are called "procedural"
-languages.  Like I said, it's a markup language, used to add
-instructions about how to display the text and images, etc.
+To be clear, it is NOT a programming language.  It's not like Visual
+Basic, C# ["see sharp"], and other languages which are called
+"procedural" languages.  Like I said, it's a markup language, used to
+add instructions about how to display the text and images, what to do
+when the user clicks a link in the document, etc.
 
 A procedural language can be used for instance to add up all the
 numbers you type in and print out the answer.  The code can loop back,
 make decisions with "IF" statements, store data in variables, etc.
-HTML does not do that.  That's why it's necessary to add JavaScript to
-HTML to accomplish procedural programming within a web page.  More
-later, now back to markup.
+HTML can not do that.  That's why it's often necessary to add
+JavaScript to an HTML file to accomplish procedural programming within
+a web page.  More on that later, now back to markup.
 
 * What is CSS?
 
@@ -86,16 +118,15 @@ HTML tries to keep the presentation, that is, how an HTML document
 finally appears on the screen, from the structure and the content of
 the document.  That's the words, the pictures, the section breaks, and
 other elements of the HTML which don't have to do with how it appears
-on the screen.
+on the screen.  It is one of the foundations of the HTML approach to
+document formatting.
 
-One of the foundations of the HTML aproach to document formatting is
-seperating the "presentation" of a document from the actual content of
-the document.  This is in contrast to the approach used by most word
-processors, like Microsoft Word.  With a word processor, the way that
-you format your document is mixed in with the words and images you
-type in.  If, later, you decide that you want to change the font for
-all of the section headings, you may have trouble if you had put in
-the formatting manually along with your text.  You would have to go
+This is in contrast to the approach used by most word processors, like
+Microsoft Word.  With a word processor, the way that you format your
+document is mixed in with the words and images you type in.  If,
+later, you decide that you want to change the font for all of the
+section headings, you may have trouble if you had put in the
+formatting manually along with your text.  You would have to go
 through the document and change every section heading individually.
 
 But, if you used a format built in to Word for your section headings,
@@ -107,19 +138,71 @@ make was easy and not a lot of labor.
 
 Cascading Style Sheets are an implementation of that concept, for HTML
 documents.  They allow you to almost completely separate the
-presentation of your web page from the content, text and pictures,
+presentation of your web page from the content, the text and pictures,
 which is in it.
 
 * What is a style sheet?
+
+A style sheet is a computer file written in a language, which is also
+called "CSS".  It describes the *presentation* of another computer
+file or files (usually HTML files), but it doesn't contain any
+additional content of its own (no text or pictures).
+
+Also, it doesn't specify the *structure* of the other document, since
+that's part of the other document's content.  (For example, when you
+break a long paragraph into sections, this changes the content of your
+document, even though you have only changed its structure.)
+
+The style sheet file specifies "styles" for the various content items
+in the other document.  It could, for instance, say that all links
+which have not been clicked should be in purple text with a yellow
+background.  Or that all top-level headings in the HTML file should be
+displayed in Times New Roman typeface and be in bold text.  Each one
+of these specifications is called a "style", so a collection of them
+is called a "style sheet".
+
 * What is a style?
+
+Each individual entry, as I said, is called a "style".  But to be more
+clear, it's important to know about "selectors".  A selector is a way
+of referring to a certain element, or a certain type of element, in an
+HTML file which the style is being applied to.  That way, the browser
+knows which part of the HTML to make yellow-on-purple, or bold, or in
+a larger font, etc.  A simple example would be a selector called "h1".
+It would apply to all HTML elements "<h1>", which means, first-level
+or top-level heading, a heading which is the most important in the
+document.
+
+Along with the selector in our example, "h1", would go a typographical
+style such as "{ font-family: sans-serif; font-size: 180%;
+line-height: 21pt; }".  This would require a font which has no serifs
+(such as Arial or Helvetica), and would magnify the font 180% of the
+normal body text and make the height of the lines a certain larger
+size as well.
+
+Remember that this would all only apply to "h1" headings in the HTML
+document.  There would be other styles to apply to other kinds of text
+in the document, like footnotes, or body text, etc.  So now the look
+of each of those elements can be changed in one place, without hunting
+through the HTML document, just by modifying the style in the style
+sheet.
+
 * What about cascading?
+
+Cascading has to do with how CSS styles apply when more than one of
+them apply to a particular HTML element.  Generally, they inherit from
+the least specific to the most specific, with the most specific taking
+precedence if there's a conflict.  "Cascading" is meant to bring to
+mind perhaps CSS styles made of water, flowing over a series of
+waterfalls, finally ending splashing in the pool of HTML ... or
+something.
 
 * And finally, what about JavaScript?
 
 JavaScript is in fact a true multipurpose programming language.  So it
 *is* like Visual Basic, C#, and many other languages.  People really
 criticized it when it came out in the 1990s.  It was developed by
-NetScape, a famous early Internet company.  Even though it has the
+Netscape, a famous early Internet company.  Even though it has the
 word "Java" in the name, it has nothing to do with the Java
 programming language which was made by a different company and wasn't
 intended for the Web, really.  But time passed, and programmers found
@@ -141,7 +224,7 @@ other computer program like, say, Visual Basic.
 
 This seems like a huge security problem.  If a user just browses a
 page somewhere on the Web, then the JavaScript in that page will run.
-What if it's a site that wants to hack into your computer?  
+What if it's a site that wants to hack into your computer?
 
 The cure to this potential problem is that JavaScript is run in a
 "sandbox" (or like a jail) within the browser.  It can't use any
@@ -149,3 +232,5 @@ resources of the computer the browser is running on except by asking
 the browser.  So, unless there is some security flaw in the browser,
 it's safe to run any JavaScript code from any site anywhere, by
 design.
+
+--END--
